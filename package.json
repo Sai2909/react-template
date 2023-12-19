@@ -1,0 +1,89 @@
+{
+  "name": "otracker_ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@highcharts/map-collection": "^2.0.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.29.3",
+    "dom-to-image": "^2.6.0",
+    "drawflow": "^0.0.59",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "heatmap.js": "^2.0.5",
+    "highcharts": "^10.2.1",
+    "highcharts-react-official": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "html2canvas": "^1.4.1",
+    "intro.js-react": "^0.7.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "leaflet": "^1.9.3",
+    "lodash": "^4.17.21",
+    "lottie-web": "^5.12.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-best-gradient-color-picker": "^2.1.11",
+    "react-bootstrap": "^2.5.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-country-flag": "^3.1.0",
+    "react-date-range": "^1.4.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.5.2",
+    "reactflow": "^11.3.0",
+    "sass": "^1.55.0",
+    "terser-webpack-plugin": "^5.3.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prod": "webpack --config webpack.config.js --mode=production"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "node": {
+    "fs": "empty"
+  },
+  "browser": {
+    "child_process": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/drawflow": "^0.0.4",
+    "dotenv-webpack": "^8.0.1",
+    "source-map-loader": "^1.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

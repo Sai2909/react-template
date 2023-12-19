@@ -1,0 +1,35 @@
+@import './variables';
+
+.obs_create {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+
+  .obs_create_wrapper {
+    &_content {
+      min-height: calc(100vh - 0px);
+      margin-left: 16rem;
+      background: var(--obsT_body);
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+.dashboard,
+.myProducts,
+.myFavorites,
+.notifications {
+  width: 1560px;
+  height: 801px;
+  top: 179px;
+  left: 330px;
+  border-radius: 12px;
+  position: absolute;
+}
+.tab-class {
+  position: absolute;
+  width: 241px;
+  height: 38px;
+  top: 108px;
+  left: 330px;
+}
